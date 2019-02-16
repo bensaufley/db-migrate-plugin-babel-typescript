@@ -4,7 +4,9 @@
   "description": "A db-migrate plugin to enable TypeScript style migrations.",
   "main": "index.js",
   "peerDependencies": {
-    "ts-node": "^3.3.0"
+    "@babel/core": "^7.0",
+    "@babel/register": "^7.0",
+    "@babel/preset-typescript": "^7.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/db-migrate/plugin-typescript.git"
+    "url": "git+https://github.com/bensaufley/db-migrate-plugin-typescript.git"
   },
   "keywords": [
     "dbmigrate",
@@ -26,12 +28,13 @@
     "nosql",
     "newsql",
     "typescript",
-    "type-script"
+    "type-script",
+    "babel"
   ],
-  "author": "Rémy Jeancolas <remy.jeancolas@illogeek.eu>",
+  "author": "Ben Saufley <contact@bensaufley.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/db-migrate/plugin-typescript/issues"
+    "url": "https://github.com/bensaufley/db-migrate-plugin-babel-typescript/issues"
   },
-  "homepage": "https://github.com/db-migrate/plugin-typescript#readme"
+  "homepage": "https://github.com/bensaufley/db-migrate-plugin-babel-typescript#readme"
 }
