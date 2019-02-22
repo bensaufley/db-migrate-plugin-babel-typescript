@@ -4,7 +4,14 @@
     "url": "https://github.com/bensaufley/db-migrate-plugin-babel-typescript/issues"
   },
   "description": "A db-migrate plugin to enable TypeScript style migrations using @babel/register.",
+  "dependencies": {
+    "@types/events": "latest"
+  },
   "devDependencies": {},
+  "files": [
+    "./index.js",
+    "./types.d.ts"
+  ],
   "homepage": "https://github.com/bensaufley/db-migrate-plugin-babel-typescript#readme",
   "keywords": [
     "dbmigrate",

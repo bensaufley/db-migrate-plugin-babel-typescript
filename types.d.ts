@@ -18,7 +18,7 @@ export interface Types {
   TEXT?: 'text';
   TIME?: 'time';
   TIMESTAMP?: 'timestamp';
-  [key: string]: string;
+  [key: string]: string | undefined;
 }
 
 export type OnComplete = (
@@ -44,15 +44,15 @@ export interface DBM {
 }
 
 export interface MigrationOptions {
+  cwd?: string;
   dbmigrate: DBM;
-  dryRun: boolean;
-  cwd: string;
-  noTransactions: boolean;
-  verbose: boolean;
-  type: DBM['dataType'];
-  log: log;
+  dryRun?: boolean;
   ignoreOnInit: boolean;
-  Promise: typeof Promise;
+  log?: unknown;
+  noTransactions?: boolean;
+  Promise?: typeof Promise;
+  type?: DBM['dataType'];
+  verbose?: boolean;
 }
 
 export interface Internals {
