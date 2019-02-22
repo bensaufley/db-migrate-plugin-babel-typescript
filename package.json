@@ -1,21 +1,11 @@
 {
-  "name": "db-migrate-plugin-babel-typescript",
-  "version": "0.2.0",
+  "author": "Ben Saufley <contact@bensaufley.com>",
+  "bugs": {
+    "url": "https://github.com/bensaufley/db-migrate-plugin-babel-typescript/issues"
+  },
   "description": "A db-migrate plugin to enable TypeScript style migrations using @babel/register.",
-  "main": "index.js",
-  "peerDependencies": {
-    "@babel/core": "^7.0",
-    "@babel/register": "^7.0",
-    "@babel/preset-typescript": "^7.0"
-  },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bensaufley/db-migrate-plugin-babel-typescript.git"
-  },
+  "homepage": "https://github.com/bensaufley/db-migrate-plugin-babel-typescript#readme",
   "keywords": [
     "dbmigrate",
     "db-migrate",
@@ -31,10 +21,21 @@
     "type-script",
     "babel"
   ],
-  "author": "Ben Saufley <contact@bensaufley.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bensaufley/db-migrate-plugin-babel-typescript/issues"
+  "main": "index.js",
+  "name": "db-migrate-plugin-babel-typescript",
+  "peerDependencies": {
+    "@babel/core": "^7.0",
+    "@babel/preset-typescript": "^7.0",
+    "@babel/register": "^7.0"
   },
-  "homepage": "https://github.com/bensaufley/db-migrate-plugin-babel-typescript#readme"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensaufley/db-migrate-plugin-babel-typescript.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "./index.d.ts",
+  "version": "0.2.0"
 }
