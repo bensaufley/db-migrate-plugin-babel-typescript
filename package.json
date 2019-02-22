@@ -36,6 +36,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "typings": "./index.d.ts",
+  "types": "./types.d.ts",
   "version": "0.2.0"
 }
